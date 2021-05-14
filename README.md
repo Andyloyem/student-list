@@ -1,3 +1,8 @@
+# command
+
+docker run --name api_student -d -p 8081:5000 -v /home/ubuntu/student-list/simple_api/student_age.json:/data/student_age.json api_student
+
+
 # student-list 
 This repo is a simple application to list student with a webserver (PHP) and API (Flask)
 
