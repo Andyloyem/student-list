@@ -1,6 +1,6 @@
 # Configure the Docker provider
 provider "docker" {
-  host = "tcp://127.0.0.1:5000/"
+  host = "tcp://127.0.0.1:42568"
 }
 
 # Create a container
